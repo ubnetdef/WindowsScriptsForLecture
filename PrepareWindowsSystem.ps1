@@ -1,5 +1,6 @@
 ﻿$currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
 if ($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)){
+    Set-NetConnectionProfile -interfaceallias * -NetworkCategory "Private"
     winrm quickconfig
     Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
     Enable-PSRemoting -Force

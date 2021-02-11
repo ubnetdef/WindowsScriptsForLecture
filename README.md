@@ -6,3 +6,4 @@ Follow the steps below:
   3. Run the command "Set-ExecutionPolicy -ExecutionPolicy Unrestricted"
   4. Navigate to the location that you downloaded the script to.
   5. When inside of the folder of the script run the command "./filename.ps1" where filename is the name you gave the file.
+  6. Say Yes to all prompts
