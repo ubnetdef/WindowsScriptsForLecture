@@ -5,4 +5,4 @@ Follow the steps below:
   2. Run Powershell as administrator
   3. Run the command "Set-ExecutionPolicy -ExecutionPolicy Unrestricted"
   4. Navigate to the location that you downloaded the script to.
-  5. When inside of the folder of the script run the command "./filename.ps1" where 
+  5. When inside of the folder of the script run the command "./filename.ps1" where filename is the name you gave the file.
