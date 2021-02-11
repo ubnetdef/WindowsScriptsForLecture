@@ -9,7 +9,6 @@ if ($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administ
     Set-Service -Name Winmgmt -StartupType Automatic
     Start-Service WinRM
     Start-Service Winmgmt
-
 }
 else{
     Write-Output "Please Run Powershell As Administrator."
