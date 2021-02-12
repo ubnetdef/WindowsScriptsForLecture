@@ -5,7 +5,7 @@ if ($currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administ
     Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
     Enable-PSRemoting -Force
     Set-Item WSMan:\localhost\Client\TrustedHosts -Value '*'
-    Set-ItemProperty -path "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" -Name 'fDenyTSConnections' -Value 0
+    Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
     Set-Service -Name WinRM -StartupType Automatic
     Set-Service -Name Winmgmt -StartupType Automatic
     Start-Service WinRM
