@@ -7,3 +7,6 @@ Follow the steps below:
   4. Navigate to the location that you downloaded the script to.
   5. When inside of the folder of the script run the command "./filename.ps1" where filename is the name you gave the file.
   6. Say Yes to all prompts
+
+Link to Youtube Video Showing the Proess
+https://www.youtube.com/watch?v=Z6kNyfZiNxg
